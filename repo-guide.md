@@ -64,6 +64,9 @@ CLI for handling attestation evidence
 [pocli](https://github.com/veraison/pocli) 
 CLI for Veraison services policy management client
 
+[cocli](https://github.com/veraison/cocli)
+CLI to manipulate CoRIM and CoMIDs
+
 [gen-corim](https://github.com/veraison/gen-corim)
 CLI for generating CoRIM (containing Endorsements and Reference Values) using Evidence
 
@@ -97,12 +100,16 @@ These libraries provide functions for working with EAR (EAT Attestation Results)
 
 [ratsd](https://github.com/veraison/ratsd): A RATS conceptual message collection daemon
 
+[gen-ratsd-token](https://github.com/veraison/gen-ratsd-token): Create a ratsd token from provided component evidence tokens
+
 ####  Verifier Provisioning 
 These libraries provide support for the standard information models used to convey data to a Verifier.
 
 [corim](https://github.com/veraison/corim): manipulation of Concise Reference Integrity Manifest (CoRIM) and Concise Module Identifier (CoMID) tags. Also includes cocli CLI tool, that assists users creating CoRIM & CoMID tags.
 
 [corim-rs](https://github.com/veraison/corim-rs): Rust implementation of CoRIM and CoMID manipulation library
+
+[cca-coserve-demo](https://github.com/veraison/cca-coserv-demo): This project demonstrates how to use the [CoRIM Verifier (cover)](https://github.com/veraison/cover) to verify and appraise an Arm CCA attestation token, using [CoSERV](https://datatracker.ietf.org/doc/draft-ietf-rats-coserv/) as the source of trust anchors and reference values.
 
 [swid](https://github.com/veraison/swid) : SWID and CoSWID manipulation library
 
